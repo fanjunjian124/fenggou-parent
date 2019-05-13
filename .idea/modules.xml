@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-parent.iml" filepath="$PROJECT_DIR$/basic-parent/basic-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" filepath="$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fenggou-config-server/fenggou-config-server.iml" filepath="$PROJECT_DIR$/fenggou-config-server/fenggou-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fenggou-eureka-server/fenggou-eureka-server.iml" filepath="$PROJECT_DIR$/fenggou-eureka-server/fenggou-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fenggou-parent.iml" filepath="$PROJECT_DIR$/fenggou-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fenggou-plat-parent/fenggou-plat-parent.iml" filepath="$PROJECT_DIR$/fenggou-plat-parent/fenggou-plat-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fenggou-zuul-gateway/fenggou-zuul-gateway.iml" filepath="$PROJECT_DIR$/fenggou-zuul-gateway/fenggou-zuul-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fenggou-plat-parent/plat-interface/plat-interface.iml" filepath="$PROJECT_DIR$/fenggou-plat-parent/plat-interface/plat-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fenggou-plat-parent/plat-service/plat-service.iml" filepath="$PROJECT_DIR$/fenggou-plat-parent/plat-service/plat-service.iml" />
+    </modules>
+  </component>
+</project>
