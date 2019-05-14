@@ -24,7 +24,7 @@
       <module name="fenggou-parent" target="1.5" />
       <module name="fenggou-plat-parent" target="1.5" />
       <module name="fenggou-zuul-gateway" target="1.8" />
-      <module name="plat-interface" target="1.5" />
+      <module name="plat-interface" target="1.8" />
       <module name="plat-server" target="1.8" />
       <module name="plat-service" target="1.8" />
     </bytecodeTargetLevel>

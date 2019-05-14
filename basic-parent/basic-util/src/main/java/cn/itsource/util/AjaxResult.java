@@ -50,6 +50,10 @@ public class AjaxResult {
         return this;
     }
 
+    /**
+     * 给自己实例化 new一个对象
+     * @return
+     */
     public static AjaxResult me(){
         return new AjaxResult();
     }
