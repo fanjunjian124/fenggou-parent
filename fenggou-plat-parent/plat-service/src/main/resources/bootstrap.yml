@@ -3,7 +3,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka
   instance:
-      instance-id: aigou-plat.com #为当前服务器添加实例的标识
+      instance-id: fenggou-plat.com #为当前服务器添加实例的标识
       prefer-ip-address: true
 #拉取配置
 spring:
@@ -16,5 +16,5 @@ spring:
       label: master #分支
       discovery:
         enabled: true #从eureka上面找配置服务
-        service-id: AIGOU-CONFIG-SERVER #指定服务名
+        service-id: FENGGOU-CONFIG-SERVER #指定服务名
       #uri: http://127.0.0.1:1299 #配置服务器 单机配置

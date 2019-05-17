@@ -6,16 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="basic-core" />
+        <module name="basic-generator" />
         <module name="basic-util" />
         <module name="fenggou-config" />
         <module name="fenggou-config-server" />
         <module name="fenggou-eureka-server" />
+        <module name="fenggou-product-server" />
         <module name="fenggou-zuul-gateway" />
         <module name="plat-interface" />
         <module name="plat-service" />
+        <module name="product-interface" />
+        <module name="product-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="basic-core" target="1.5" />
+      <module name="basic-generator" target="1.5" />
       <module name="basic-parent" target="1.5" />
       <module name="basic-util" target="1.5" />
       <module name="fenggou-config" target="1.5" />
@@ -23,10 +30,14 @@
       <module name="fenggou-eureka-server" target="1.8" />
       <module name="fenggou-parent" target="1.5" />
       <module name="fenggou-plat-parent" target="1.5" />
+      <module name="fenggou-product-parent" target="1.5" />
+      <module name="fenggou-product-server" target="1.5" />
       <module name="fenggou-zuul-gateway" target="1.8" />
       <module name="plat-interface" target="1.8" />
       <module name="plat-server" target="1.8" />
       <module name="plat-service" target="1.8" />
+      <module name="product-interface" target="1.7" />
+      <module name="product-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

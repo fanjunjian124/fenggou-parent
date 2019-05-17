@@ -5,13 +5,13 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka
   instance:
-    instance-id: aigou-config-server:1990.com
+    instance-id: FENGGOU-config-server:1990.com
     prefer-ip-address: true
 spring:
   #profiles:
     #active: native #读取本地配置
   application:
-    name: AIGOU-CONFIG-SERVER
+    name: FENGGOU-CONFIG-SERVER
   cloud:
     config:
       server:
