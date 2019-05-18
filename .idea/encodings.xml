@@ -6,6 +6,9 @@
     <file url="file://$PROJECT_DIR$/basic-parent/basic-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic-parent/basic-generator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/basic-parent/basic-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fenggou-common-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fenggou-common-parent/common-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fenggou-common-parent/common-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fenggou-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fenggou-eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fenggou-plat-parent" charset="UTF-8" />

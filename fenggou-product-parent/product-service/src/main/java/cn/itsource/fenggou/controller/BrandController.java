@@ -26,6 +26,7 @@ public class BrandController {
     @RequestMapping(value="/brand",method= RequestMethod.POST)
     public AjaxResult save(@RequestBody Brand brand){
         try {
+            System.out.println("brand====="+brand);
             if(brand.getId()!=null){
                 brandService.updateById(brand);
             }else{

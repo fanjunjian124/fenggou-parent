@@ -5,7 +5,11 @@ import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * <p>
@@ -24,13 +28,13 @@ private static final long serialVersionUID=1L;
     private Long id;
 
     @TableField("createTime")
-    private Long createTime;
+    private Date createTime =new Date();
 
     @TableField("updateTime")
-    private Long updateTime;
+    private Date updateTime;
 
     /**
-     * 用户姓名
+     * 品牌名
      */
     private String name;
 
@@ -82,19 +86,20 @@ private static final long serialVersionUID=1L;
         this.id = id;
     }
 
-    public Long getCreateTime() {
+    @DateTimeFormat(pattern = "yyyy-MM-dd" )
+    public Date getCreateTime() {
         return createTime;
     }
-
-    public void setCreateTime(Long createTime) {
+    @JsonFormat(pattern = "yyyy-MM-dd",timezone = "GMT-8")
+    public void setCreateTime(Date createTime) {
         this.createTime = createTime;
     }
-
-    public Long getUpdateTime() {
+    @DateTimeFormat(pattern = "yyyy-MM-dd" )
+    public Date getUpdateTime() {
         return updateTime;
     }
-
-    public void setUpdateTime(Long updateTime) {
+    @JsonFormat(pattern = "yyyy-MM-dd",timezone = "GMT-8")
+    public void setUpdateTime(Date updateTime) {
         this.updateTime = updateTime;
     }
 
@@ -162,16 +167,17 @@ private static final long serialVersionUID=1L;
     @Override
     public String toString() {
         return "Brand{" +
-        "id=" + id +
-        ", createTime=" + createTime +
-        ", updateTime=" + updateTime +
-        ", name=" + name +
-        ", englishName=" + englishName +
-        ", firstLetter=" + firstLetter +
-        ", description=" + description +
-        ", productTypeId=" + productTypeId +
-        ", sortIndex=" + sortIndex +
-        ", logo=" + logo +
-        "}";
+                "id=" + id +
+                ", createTime=" + createTime +
+                ", updateTime=" + updateTime +
+                ", name='" + name + '\'' +
+                ", englishName='" + englishName + '\'' +
+                ", firstLetter='" + firstLetter + '\'' +
+                ", description='" + description + '\'' +
+                ", productTypeId=" + productTypeId +
+                ", productType=" + productType +
+                ", sortIndex=" + sortIndex +
+                ", logo='" + logo + '\'' +
+                '}';
     }
 }

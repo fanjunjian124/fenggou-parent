@@ -1,12 +1,19 @@
 package cn.itsource.fenggou.service.impl;
 
+import cn.itsource.fenggou.client.RedisClient;
+import cn.itsource.fenggou.client.TemplateClient;
 import cn.itsource.fenggou.domain.ProductType;
 import cn.itsource.fenggou.mapper.ProductTypeMapper;
 import cn.itsource.fenggou.service.IProductTypeService;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -22,13 +29,67 @@ import java.util.Map;
  */
 @Service
 public class ProductTypeServiceImpl extends ServiceImpl<ProductTypeMapper, ProductType> implements IProductTypeService {
+    @Autowired
+    private RedisClient redisClient;
+    @Autowired
+    private TemplateClient templateClient;
+
+    /**
+     * 生成静态化首页
+     */
+    @Override
+    public void generateStaticPage() {
+
+        //模板   数据   目标文件的路径
+        //路径问题最好不要硬编码，可以写到属性文件或者配置文件中，再读入
+
+        //根据product.type.vm模板生成 product.type.vm.html
+        String templatePath = "E:\\JetBrains\\IntelliJ IDEA_workspace\\fenggou-parent\\fenggou-product-parent\\product-service\\src\\main\\resources\\template\\product.type.vm";
+        String targetPath = "E:\\JetBrains\\IntelliJ IDEA_workspace\\fenggou-parent\\fenggou-product-parent\\product-service\\src\\main\\resources\\template\\product.type.vm.html";
+        List<ProductType> productTypes = loadDataTree();
+        Map<String,Object> params = new HashMap<>();
+        params.put("model",productTypes);
+        params.put("templatePath",templatePath);
+        params.put("targetPath",targetPath);
+        templateClient.createStaticPage(params);
+
+        //再根据home.vm生成home.html
+        templatePath = "E:\\JetBrains\\IntelliJ IDEA_workspace\\fenggou-parent\\fenggou-product-parent\\product-service\\src\\main\\resources\\template\\home.vm";
+        targetPath = "E:\\JetBrains\\IntelliJ IDEA_workspace\\ecommerce\\home.html";
+        //新new Map 创建home模板的数据
+        params = new HashMap<>();
+
+        Map<String,Object> model = new HashMap<>();
+        model.put("staticRoot","E:\\JetBrains\\IntelliJ IDEA_workspace\\fenggou-parent\\fenggou-product-parent\\product-service\\src\\main\\resources\\");
+        params.put("model",model);
+        params.put("templatePath",templatePath);
+        params.put("targetPath",targetPath);
+        templateClient.createStaticPage(params);
+
+    }
     /**
      * 加载树形菜单
      * @return
      */
     @Override
     public List<ProductType> loadTreeData() {
-        return loadDataTree();
+        String productTypesStr = redisClient.get("productTypes");
+        if(StringUtils.isEmpty(productTypesStr)){
+            //空就去数据查，查了之后往redis里再存
+            List<ProductType> productTypes = loadDataTree();
+            //redis里存的是字符串，所以list要转换成json
+            String s = JSONArray.toJSONString(productTypes);
+
+            String s1 = JSONObject.toJSONString(productTypes);
+            System.out.println("s====="+s+"-----s1======"+s1);
+
+            redisClient.set("productTypes",s);
+
+            return productTypes;
+        }
+        //查出缓存有值就直接返回
+        List<ProductType> productTypes = JSONArray.parseArray(productTypesStr, ProductType.class);
+        return productTypes;
     }
 
     /**
@@ -77,5 +138,49 @@ public class ProductTypeServiceImpl extends ServiceImpl<ProductTypeMapper, Produ
             }
         }
         return list;
+    }
+//    =================重写增删改方法 每次都要去查询缓存=================
+
+    @Override
+    public boolean save(ProductType entity) {
+        //先执行保存
+        boolean save = super.save(entity);
+        sychornizedOperate();
+        return save;
+    }
+    @Override
+    public boolean removeById(Serializable id) {
+        boolean result = super.removeById(id);
+        sychornizedOperate();
+        return result;
+    }
+
+    @Override
+    public boolean updateById(ProductType entity) {
+        boolean result = super.updateById(entity);
+        sychornizedOperate();
+        return result;
+    }
+
+
+//    ============================结束===============================
+
+    /**
+     * 更新redis数据
+     */
+    private void updateRedis(){
+        //查出最新的树形菜单
+        List<ProductType> productTypes = loadDataTree();
+        //转成json字符串缓存到redis中
+        String jsonString = JSONArray.toJSONString(productTypes);
+        redisClient.set("productTypes",jsonString);
+    }
+
+    /**
+     * 同步方法，增删改的时候 使用同步方法修改缓存
+     */
+    private void sychornizedOperate(){
+        updateRedis();
+        generateStaticPage();
     }
 }

@@ -15,6 +15,7 @@
         <module>basic-parent</module>
         <module>fenggou-config-server</module>
         <module>fenggou-product-parent</module>
+        <module>fenggou-common-parent</module>
     </modules>
 
     <properties>

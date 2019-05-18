@@ -9,6 +9,8 @@
         <module name="basic-core" />
         <module name="basic-generator" />
         <module name="basic-util" />
+        <module name="common-interface" />
+        <module name="common-service" />
         <module name="fenggou-config" />
         <module name="fenggou-config-server" />
         <module name="fenggou-eureka-server" />
@@ -25,6 +27,10 @@
       <module name="basic-generator" target="1.5" />
       <module name="basic-parent" target="1.5" />
       <module name="basic-util" target="1.5" />
+      <module name="common-interface" target="1.5" />
+      <module name="common-service" target="1.8" />
+      <module name="commoninterface" target="1.5" />
+      <module name="fenggou-common-parent" target="1.5" />
       <module name="fenggou-config" target="1.5" />
       <module name="fenggou-config-server" target="1.8" />
       <module name="fenggou-eureka-server" target="1.8" />
