@@ -108,4 +108,5 @@ public class ProductTypeController {
             return AjaxResult.me().setSuccess(false).setMessage("生成失败!");
         }
     }
+
 }

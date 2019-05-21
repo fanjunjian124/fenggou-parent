@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" filepath="$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/fenggou-common-parent/common-interface/common-interface.iml" filepath="$PROJECT_DIR$/fenggou-common-parent/common-interface/common-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/fenggou-common-parent/common-service/common-service.iml" filepath="$PROJECT_DIR$/fenggou-common-parent/common-service/common-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fenggou-common-parent/fenggou-common-parent.iml" filepath="$PROJECT_DIR$/fenggou-common-parent/fenggou-common-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/fenggou-config-server/fenggou-config-server.iml" filepath="$PROJECT_DIR$/fenggou-config-server/fenggou-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/fenggou-eureka-server/fenggou-eureka-server.iml" filepath="$PROJECT_DIR$/fenggou-eureka-server/fenggou-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/fenggou-parent.iml" filepath="$PROJECT_DIR$/fenggou-parent.iml" />

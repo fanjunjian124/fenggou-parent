@@ -1,8 +1,8 @@
 package cn.itsource.fenggou.controller;
 
-import cn.itsource.fenggou.query.ProductQuery;
 import cn.itsource.fenggou.service.IProductService;
 import cn.itsource.fenggou.domain.Product;
+import cn.itsource.fenggou.query.ProductQuery;
 
 import cn.itsource.util.AjaxResult;
 import cn.itsource.util.PageList;
@@ -81,7 +81,6 @@ public class ProductController {
     @RequestMapping(value = "/product/page",method = RequestMethod.POST)
     public PageList<Product> json(@RequestBody ProductQuery query)
     {
-        IPage<Product> productIPage = productService.page(new Page<>(query.getPage(), query.getSize()));
-        return new PageList<>(productIPage.getTotal(),productIPage.getRecords());
+        return productService.selectByQuery(query);
     }
 }

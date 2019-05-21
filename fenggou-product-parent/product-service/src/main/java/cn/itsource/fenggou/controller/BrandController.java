@@ -5,6 +5,7 @@ import cn.itsource.fenggou.service.IBrandService;
 import cn.itsource.fenggou.domain.Brand;
 
 import cn.itsource.util.AjaxResult;
+import cn.itsource.util.LetterUtil;
 import cn.itsource.util.PageList;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -26,6 +27,8 @@ public class BrandController {
     @RequestMapping(value="/brand",method= RequestMethod.POST)
     public AjaxResult save(@RequestBody Brand brand){
         try {
+            //设置首字母
+            brand.setFirstLetter(LetterUtil.getFirstLetter(brand.getName()));
             System.out.println("brand====="+brand);
             if(brand.getId()!=null){
                 brandService.updateById(brand);
@@ -106,4 +109,6 @@ public class BrandController {
     {
         return brandService.getByQuery(query);
     }
+
+
 }

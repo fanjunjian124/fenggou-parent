@@ -28,7 +28,7 @@ private static final long serialVersionUID=1L;
     private Long id;
 
     @TableField("createTime")
-    private Date createTime =new Date();
+    private Date createTime;
 
     @TableField("updateTime")
     private Date updateTime;

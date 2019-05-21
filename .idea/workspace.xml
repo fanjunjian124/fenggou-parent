@@ -2,84 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc688c58-5c25-4030-befd-12c43502a3aa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_annotations_3_0_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_7_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_7_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_java8_9_7_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_7_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_5_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_0_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_0_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_2_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_9_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-interface/common-interface.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-interface/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-interface/src/main/java/cn/itsource/fenggou/client/RedisClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-interface/src/main/java/cn/itsource/fenggou/client/TemplateClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/common-service.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/CommonApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/RedisController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/TemplateController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/util/RedisUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/util/VelocityUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/resources/bootstrap.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/commoninterface.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/fenggou-common-parent.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/template/home.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/template/home/common-footer.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/template/home/common-header-top.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/template/home/common-header.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/template/home/common-link.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/template/home/common-nav.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/template/home/common-right-sidebar.vm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/template/product.type.vm" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_csource_fastdfs_fastdfs_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/BitStatesUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/ClassUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/CodeGenerateUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/GlobalSetting.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/LetterUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/NameUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/ProductStateConsts.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/PropertiesHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/StrUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/FileController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/util/FastDfsApiOpr.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/resources/fdfs_client.conf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/fdfs_client.conf" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/fenggou-plat-parent/plat-service/target/classes/bootstrap.yml" afterPath="$PROJECT_DIR$/fenggou-plat-parent/plat-service/target/classes/bootstrap.yml" />
-      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-interface/pom.xml" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-interface/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-interface/product-interface.iml" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-interface/product-interface.iml" />
+      <change beforePath="$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/basic/generoter/CodeGen.java" afterPath="$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/basic/generoter/CodeGen.java" />
+      <change beforePath="$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/mybatis-plus-product.properties" afterPath="$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/mybatis-plus-product.properties" />
+      <change beforePath="$PROJECT_DIR$/fenggou-common-parent/common-service/common-service.iml" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/common-service.iml" />
+      <change beforePath="$PROJECT_DIR$/fenggou-common-parent/common-service/pom.xml" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/fenggou-common-parent/fenggou-common-parent.iml" afterPath="$PROJECT_DIR$/fenggou-common-parent/fenggou-common-parent.iml" />
       <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Brand.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Brand.java" />
-      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/pom.xml" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/product-service.iml" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/product-service.iml" />
-      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/ProductApplication.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/ProductApplication.java" />
+      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Product.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Product.java" />
+      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/ProductQuery.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/ProductQuery.java" />
       <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/BrandController.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/BrandController.java" />
+      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductController.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductController.java" />
       <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductTypeController.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductTypeController.java" />
-      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/IProductTypeService.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/IProductTypeService.java" />
-      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/impl/ProductTypeServiceImpl.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/impl/ProductTypeServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/mapper/ProductMapper.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/mapper/ProductMapper.java" />
+      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/IProductService.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/IProductService.java" />
+      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/impl/ProductServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/cn/itsource/fenggou/mapper/ProductMapper.xml" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/cn/itsource/fenggou/mapper/ProductMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -114,81 +68,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="home.vm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/template/home.vm">
+      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12285">
-              <caret line="455" column="285" lean-forward="false" selection-start-line="455" selection-start-column="285" selection-end-line="455" selection-end-column="285" />
-              <folding />
+            <state relative-caret-position="1755">
+              <caret line="83" column="43" lean-forward="false" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2250#2251#0" expanded="true" />
+                <element signature="e#2308#2309#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common-link.vm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/template/home/common-link.vm">
+      <file leaf-file-name="IProductService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/IProductService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductTypeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductTypeController.java">
+      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/impl/ProductServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2052">
-              <caret line="93" column="42" lean-forward="true" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
+            <state relative-caret-position="756">
+              <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductTypeServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/impl/ProductTypeServiceImpl.java">
+      <file leaf-file-name="ProductMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/mapper/ProductMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="74" column="29" lean-forward="false" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common-nav.vm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/template/home/common-nav.vm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.type.vm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/template/product.type.vm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IProductTypeService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/IProductTypeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TemplateController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/TemplateController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="378">
+              <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,24 +114,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-interface/src/main/java/cn/itsource/fenggou/client/RedisClient.java">
+      <file leaf-file-name="ProductMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/cn/itsource/fenggou/mapper/ProductMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="864">
+              <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+              <folding>
+                <marker date="1558363904709" expanded="true" signature="3490:3674" ph="SELECT tp.*,... t_product" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/RedisController.java">
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            <state relative-caret-position="270">
+              <caret line="166" column="25" lean-forward="false" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="25" />
               <folding>
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#1277#1278#0" expanded="true" />
+                <element signature="e#1307#1308#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#1391#1392#0" expanded="true" />
+                <element signature="e#1429#1430#0" expanded="true" />
+                <element signature="e#1463#1464#0" expanded="true" />
+                <element signature="e#1517#1518#0" expanded="true" />
+                <element signature="e#1563#1564#0" expanded="true" />
+                <element signature="e#1597#1598#0" expanded="true" />
+                <element signature="e#1622#1623#0" expanded="true" />
+                <element signature="e#1653#1654#0" expanded="true" />
+                <element signature="e#1681#1682#0" expanded="true" />
+                <element signature="e#1722#1723#0" expanded="true" />
+                <element signature="e#1750#1751#0" expanded="true" />
+                <element signature="e#1791#1792#0" expanded="true" />
+                <element signature="e#1825#1826#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -250,32 +184,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/fenggou-plat-parent/plat-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/fenggou-zuul-gateway/src/main/java/cn/itsource/fenggou/service/IEmployeeService.java" />
-        <option value="$PROJECT_DIR$/fenggou-plat-parent/plat-service/src/main/java/cn/itsource/fenggou/service/IEmployeeService.java" />
-        <option value="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/AjaxResult.java" />
-        <option value="$PROJECT_DIR$/fenggou-zuul-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/fenggou-plat-parent/plat-service/src/main/java/cn/itsource/fenggou/service/impl/EmployeeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/fenggou-plat-parent/plat-service/src/main/java/cn/itsource/fenggou/mapper/EmployeeMapper.java" />
-        <option value="$PROJECT_DIR$/fenggou-plat-parent/plat-service/pom.xml" />
-        <option value="$PROJECT_DIR$/fenggou-plat-parent/plat-interface/src/main/java/cn/itsource/fenggou/domain/Employee.java" />
-        <option value="$PROJECT_DIR$/fenggou-plat-parent/plat-service/src/main/java/cn/itsource/fenggou/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/basic-parent/basic-generator/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/fenggou-product-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/fenggou-product-parent/product-interface/pom.xml" />
         <option value="$PROJECT_DIR$/basic-parent/basic-core/src/main/java/cn/itsource/basic/query/BaseQuery.java" />
         <option value="$PROJECT_DIR$/fenggou-config-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/fenggou-zuul-gateway/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/basic/generoter/CodeGen.java" />
-        <option value="$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/mybatis-plus-product.properties" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/BrandQuery.java" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/ProductTypeQuery.java" />
-        <option value="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/ProductQuery.java" />
         <option value="$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/templates/query.java.vm" />
         <option value="$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/templates/controller.java.vm" />
-        <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/config/MybatisPlusConfig.java" />
         <option value="$PROJECT_DIR$/Swagger2.java" />
         <option value="$PROJECT_DIR$/fenggou-plat-parent/plat-service/src/main/resources/bootstrap.yml" />
@@ -284,15 +200,12 @@
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/cn/itsource/fenggou/mapper/BrandMapper.xml" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/mapper/BrandMapper.java" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/impl/BrandServiceImpl.java" />
-        <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/BrandController.java" />
-        <option value="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Brand.java" />
         <option value="$PROJECT_DIR$/fenggou-common-parent/pom.xml" />
         <option value="$PROJECT_DIR$/fenggou-common-parent/common-interface/pom.xml" />
         <option value="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/CommonApplication.java" />
         <option value="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/util/RedisUtils.java" />
         <option value="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/RedisController.java" />
         <option value="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/fenggou-common-parent/common-service/pom.xml" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/pom.xml" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/ProductApplication.java" />
         <option value="$PROJECT_DIR$/fenggou-common-parent/common-interface/src/main/java/cn/itsource/fenggou/client/RedisClient.java" />
@@ -300,7 +213,28 @@
         <option value="$PROJECT_DIR$/fenggou-common-parent/common-interface/src/main/java/cn/itsource/fenggou/client/TemplateClient.java" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/IProductTypeService.java" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/impl/ProductTypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Brand.java" />
+        <option value="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/StrUtils.java" />
+        <option value="$PROJECT_DIR$/fenggou-common-parent/common-service/pom.xml" />
+        <option value="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/util/FastDfsApiOpr.java" />
+        <option value="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/BrandController.java" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductTypeController.java" />
+        <option value="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/resources/fdfs_client.conf" />
+        <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/fdfs_client.conf" />
+        <option value="$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/basic/generoter/CodeGen.java" />
+        <option value="$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/mybatis-plus-product.properties" />
+        <option value="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/ProductExtQuery.java" />
+        <option value="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/ProductQuery.java" />
+        <option value="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/SpecificationQuery.java" />
+        <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductExtController.java" />
+        <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/SpecificationController.java" />
+        <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/IProductService.java" />
+        <option value="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Product.java" />
+        <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/mapper/ProductMapper.java" />
+        <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/cn/itsource/fenggou/mapper/ProductMapper.xml" />
       </list>
     </option>
   </component>
@@ -317,10 +251,24 @@
         <option name="userSettingsFile" value="E:\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="sonar" />
+      </list>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="fenggou-eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -367,8 +315,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -376,120 +324,11 @@
               <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fenggou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fenggou" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fenggou" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fenggou" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="product-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -498,7 +337,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="E:/Git/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -510,15 +349,15 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\JetBrains\IntelliJ IDEA_workspace\fenggou-parent\fenggou-product-parent\product-service\src\main\resources\template\home" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\JetBrains\IntelliJ IDEA_workspace\fenggou-parent\fenggou-product-parent\product-service\src\main\resources" />
-      <recent name="E:\JetBrains\IntelliJ IDEA_workspace\fenggou-parent\fenggou-common-parent\common-interface\src\main\java\cn\itsource\fenggou\client" />
       <recent name="E:\JetBrains\IntelliJ IDEA_workspace\fenggou-parent\fenggou-common-parent\common-service\src\main\java\cn\itsource\fenggou\controller" />
       <recent name="E:\JetBrains\IntelliJ IDEA_workspace\fenggou-parent\fenggou-common-parent\common-service\src\main\java\cn\itsource\fenggou\util" />
-      <recent name="E:\JetBrains\IntelliJ IDEA_workspace\fenggou-parent\basic-parent\basic-generator\src\main\resources" />
+      <recent name="E:\JetBrains\IntelliJ IDEA_workspace\fenggou-parent\basic-parent\basic-util\src\main\java\cn\itsource\util" />
+      <recent name="E:\JetBrains\IntelliJ IDEA_workspace\fenggou-parent\fenggou-common-parent\common-interface\src\main\java\cn\itsource\fenggou\client" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JetBrains\IntelliJ IDEA_workspace\fenggou-parent\fenggou-product-parent\product-service\src\main\resources\template\home" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -538,7 +377,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductApplication">
+  <component name="RunManager" selected="Application.CodeGen">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -742,7 +581,16 @@
       <workItem from="1558053950129" duration="6360000" />
       <workItem from="1558083057075" duration="6229000" />
       <workItem from="1558140350647" duration="11620000" />
-      <workItem from="1558186815827" duration="9000" />
+      <workItem from="1558186815827" duration="863000" />
+      <workItem from="1558227577649" duration="10293000" />
+      <workItem from="1558270398973" duration="436000" />
+      <workItem from="1558270964489" duration="566000" />
+      <workItem from="1558271968222" duration="6244000" />
+      <workItem from="1558313328851" duration="5836000" />
+      <workItem from="1558353055258" duration="612000" />
+      <workItem from="1558357371088" duration="1231000" />
+      <workItem from="1558359018115" duration="5548000" />
+      <workItem from="1558399341853" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="idea里提交">
       <created>1557712620270</created>
@@ -772,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558054093470</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="common redis和静态页面，product-serivce 增删改查 集成redis缓存和静态页面">
+      <created>1558187077006</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558187077006</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69892000" />
+    <option name="totallyTimeSpent" value="101532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -786,7 +641,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34225845" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14901048" sideWeight="0.49785408" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2840512" sideWeight="0.49785408" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14055794" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -795,7 +650,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24195279" sideWeight="0.49323016" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24678111" sideWeight="0.49323016" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -828,7 +683,8 @@
     <MESSAGE value="idea里提交" />
     <MESSAGE value="集成mybatis-plus 和跨域在zuul的配置" />
     <MESSAGE value="product-service 品牌管理，类型树形菜单展示" />
-    <option name="LAST_COMMIT_MESSAGE" value="product-service 品牌管理，类型树形菜单展示" />
+    <MESSAGE value="common redis和静态页面，product-serivce 增删改查 集成redis缓存和静态页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="common redis和静态页面，product-serivce 增删改查 集成redis缓存和静态页面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -841,259 +697,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-core/src/main/java/cn/itsource/basic/query/BaseQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-config-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-zuul-gateway/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/BrandQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/ProductQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/ProductTypeQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/templates/query.java.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/templates/controller.java.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1736">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-642">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/config/MybatisPlusConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-plat-parent/plat-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/IBrandService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/cn/itsource/fenggou/mapper/BrandMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/mapper/BrandMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="26" column="82" lean-forward="true" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/impl/BrandServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="41" column="10" lean-forward="false" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/ProductType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.1/mybatis-plus-extension-3.1.1.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="51" column="12" lean-forward="false" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47.jar!/com/mysql/jdbc/SQLError.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="322" column="0" lean-forward="false" selection-start-line="322" selection-start-column="0" selection-end-line="322" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Brand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3024">
-          <caret line="167" column="18" lean-forward="false" selection-start-line="167" selection-start-column="18" selection-end-line="167" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/BrandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-815">
-          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/basic/generoter/CodeGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/mybatis-plus-product.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/util/RedisUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1701">
-          <caret line="63" column="21" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,25 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/RedisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding>
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-interface/src/main/java/cn/itsource/fenggou/client/RedisClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/JDK/src.zip!/java/lang/Override.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -1162,21 +750,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/TemplateController.java">
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/template/home.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/template/product.type.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="12285">
+          <caret line="455" column="285" lean-forward="false" selection-start-line="455" selection-start-column="285" selection-end-line="455" selection-end-column="285" />
         </state>
       </provider>
     </entry>
@@ -1184,7 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1192,23 +768,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/template/home.vm">
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/template/product.type.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12285">
-          <caret line="455" column="285" lean-forward="false" selection-start-line="455" selection-start-column="285" selection-end-line="455" selection-end-column="285" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductTypeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
-          <caret line="93" column="42" lean-forward="true" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1216,15 +782,313 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/TemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-interface/src/main/java/cn/itsource/fenggou/client/RedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/RedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/impl/ProductTypeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
+        <state relative-caret-position="27">
           <caret line="74" column="29" lean-forward="false" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Brand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/StrUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/AjaxResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/PageList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34.jar!/org/apache/tomcat/util/threads/TaskThread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.2.0/rxjava-1.2.0.jar!/rx/Observable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="1595" column="0" lean-forward="false" selection-start-line="1595" selection-start-column="0" selection-end-line="1595" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/util/FastDfsApiOpr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/GlobalSetting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/CodeGenerateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/BitStatesUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1458">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/LetterUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-zuul-gateway/src/main/java/cn/itsource/fenggou/ZuulGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/fdfs_client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/mybatis-plus-product.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/basic/generoter/CodeGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/ProductExtQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/ProductQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/SpecificationQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductExtController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/SpecificationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1157">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/resources/fdfs_client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="true" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-core/src/main/java/cn/itsource/basic/query/BaseQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/IProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="83" column="43" lean-forward="false" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2250#2251#0" expanded="true" />
+            <element signature="e#2308#2309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/mapper/ProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" column="58" lean-forward="false" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/cn/itsource/fenggou/mapper/ProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <folding>
+            <marker date="1558363904709" expanded="true" signature="3490:3674" ph="SELECT tp.*,... t_product" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="166" column="25" lean-forward="false" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="25" />
+          <folding>
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1391#1392#0" expanded="true" />
+            <element signature="e#1429#1430#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1622#1623#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1722#1723#0" expanded="true" />
+            <element signature="e#1750#1751#0" expanded="true" />
+            <element signature="e#1791#1792#0" expanded="true" />
+            <element signature="e#1825#1826#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1280,7 +1144,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>common-service</last-edited>
+          <last-edited>product-interface</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
