@@ -61,6 +61,7 @@ private static final long serialVersionUID=1L;
     @TableField(exist = false)
     private String description;
 
+
     public String getContent() {
         return content;
     }

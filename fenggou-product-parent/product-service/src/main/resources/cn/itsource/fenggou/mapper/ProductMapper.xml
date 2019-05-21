@@ -58,13 +58,16 @@
         <result column="typename" property="pt.name"/>
         <result column="brandId" property="brand.id"/>
         <result column="bname" property="brand.name"/>
+        <result column="perichContent" property="content"/>
+        <result column="pedescription" property="description"/>
     </resultMap>
 
     <select id="selectByQuery" resultMap="ProductMap">
-        SELECT tp.*,tpt.name typename,tb.name bname
+        SELECT tp.*,tpt.name typename,tb.name bname,pe.description pedescription,pe.richContent perichContent
         FROM t_product tp
         LEFT JOIN t_product_type tpt ON tp.productType = tpt.id
         LEFT JOIN t_brand tb ON tp.brandId = tb.id
+        LEFT JOIN t_product_ext pe ON pe.productId=tp.id
         <include refid="whereSql"/>
     </select>
 

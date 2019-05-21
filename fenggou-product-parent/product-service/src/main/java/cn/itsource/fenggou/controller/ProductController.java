@@ -6,8 +6,7 @@ import cn.itsource.fenggou.query.ProductQuery;
 
 import cn.itsource.util.AjaxResult;
 import cn.itsource.util.PageList;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -40,16 +39,22 @@ public class ProductController {
 
     /**
     * 删除对象信息
-    * @param id
+    * @param ids
     * @return
     */
-    @RequestMapping(value="/product/{id}",method=RequestMethod.DELETE)
-    public AjaxResult delete(@PathVariable("id") Long id){
+    @RequestMapping(value="/product",method=RequestMethod.DELETE)
+    public AjaxResult delete(@RequestBody String ids){
+        // TODO 同时删除fastfds的图片
         try {
-            productService.removeById(id);
+            System.out.println("ids============"+ids);
+            //ids============{"ids":{"ids":"37,38"}} 前端{data: {ids:para}}
+            String[] split = ids.split(",");
+            for (String id : split) {
+                productService.removeById(Long.valueOf(id));
+            }
             return AjaxResult.me();
         } catch (Exception e) {
-        e.printStackTrace();
+            e.printStackTrace();
             return AjaxResult.me().setMessage("删除对象失败！"+e.getMessage());
         }
     }

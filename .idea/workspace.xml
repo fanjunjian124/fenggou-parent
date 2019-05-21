@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc688c58-5c25-4030-befd-12c43502a3aa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_csource_fastdfs_fastdfs_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/BitStatesUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/ClassUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/CodeGenerateUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/GlobalSetting.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/LetterUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/NameUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/ProductStateConsts.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/PropertiesHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/StrUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/FileController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/util/FastDfsApiOpr.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/resources/fdfs_client.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/fdfs_client.conf" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/basic/generoter/CodeGen.java" afterPath="$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/basic/generoter/CodeGen.java" />
-      <change beforePath="$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/mybatis-plus-product.properties" afterPath="$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/mybatis-plus-product.properties" />
-      <change beforePath="$PROJECT_DIR$/fenggou-common-parent/common-service/common-service.iml" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/common-service.iml" />
-      <change beforePath="$PROJECT_DIR$/fenggou-common-parent/common-service/pom.xml" afterPath="$PROJECT_DIR$/fenggou-common-parent/common-service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/fenggou-common-parent/fenggou-common-parent.iml" afterPath="$PROJECT_DIR$/fenggou-common-parent/fenggou-common-parent.iml" />
-      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Brand.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Brand.java" />
       <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Product.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Product.java" />
-      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/ProductQuery.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/ProductQuery.java" />
-      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/BrandController.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/BrandController.java" />
       <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductController.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductController.java" />
-      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductTypeController.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductTypeController.java" />
-      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/mapper/ProductMapper.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/mapper/ProductMapper.java" />
-      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/IProductService.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/IProductService.java" />
-      <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/impl/ProductServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/cn/itsource/fenggou/mapper/ProductMapper.xml" afterPath="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/cn/itsource/fenggou/mapper/ProductMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -71,22 +44,41 @@
       <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="83" column="43" lean-forward="false" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
+            <state relative-caret-position="-621">
+              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2250#2251#0" expanded="true" />
-                <element signature="e#2308#2309#0" expanded="true" />
+                <element signature="e#2402#2403#0" expanded="true" />
+                <element signature="e#2460#2461#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IProductService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/IProductService.java">
+      <file leaf-file-name="CodeGen.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/basic/generoter/CodeGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+            <state relative-caret-position="1080">
+              <caret line="50" column="47" lean-forward="false" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/FileController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-224">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BrandController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/BrandController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="80" column="5" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="80" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -117,38 +109,42 @@
       <file leaf-file-name="ProductMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/cn/itsource/fenggou/mapper/ProductMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+            <state relative-caret-position="162">
+              <caret line="61" column="60" lean-forward="false" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="60" />
               <folding>
-                <marker date="1558363904709" expanded="true" signature="3490:3674" ph="SELECT tp.*,... t_product" />
+                <marker date="1558403232504" expanded="true" signature="3614:3856" ph="SELECT tp.*,... t_product" />
+                <marker date="1558403232504" expanded="true" signature="3614:3913" ph="SELECT tp.*,... t_product" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Product.java">
+      <file leaf-file-name="ProductExt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/ProductExt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="166" column="25" lean-forward="false" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="25" />
-              <folding>
-                <element signature="e#1277#1278#0" expanded="true" />
-                <element signature="e#1307#1308#0" expanded="true" />
-                <element signature="e#1353#1354#0" expanded="true" />
-                <element signature="e#1391#1392#0" expanded="true" />
-                <element signature="e#1429#1430#0" expanded="true" />
-                <element signature="e#1463#1464#0" expanded="true" />
-                <element signature="e#1517#1518#0" expanded="true" />
-                <element signature="e#1563#1564#0" expanded="true" />
-                <element signature="e#1597#1598#0" expanded="true" />
-                <element signature="e#1622#1623#0" expanded="true" />
-                <element signature="e#1653#1654#0" expanded="true" />
-                <element signature="e#1681#1682#0" expanded="true" />
-                <element signature="e#1722#1723#0" expanded="true" />
-                <element signature="e#1750#1751#0" expanded="true" />
-                <element signature="e#1791#1792#0" expanded="true" />
-                <element signature="e#1825#1826#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="378">
+              <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/RedisController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/TemplateController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-108">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -222,19 +218,19 @@
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductTypeController.java" />
         <option value="$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/resources/fdfs_client.conf" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/fdfs_client.conf" />
-        <option value="$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/basic/generoter/CodeGen.java" />
         <option value="$PROJECT_DIR$/basic-parent/basic-generator/src/main/resources/mybatis-plus-product.properties" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/ProductExtQuery.java" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/ProductQuery.java" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/SpecificationQuery.java" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductExtController.java" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/SpecificationController.java" />
-        <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/IProductService.java" />
-        <option value="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Product.java" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/mapper/ProductMapper.java" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Product.java" />
         <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/cn/itsource/fenggou/mapper/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/basic/generoter/CodeGen.java" />
       </list>
     </option>
   </component>
@@ -323,6 +319,265 @@
             <path>
               <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="generoter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-common-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="common-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="common-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-common-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="common-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fenggou-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fenggou-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou-product-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="product-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fenggou" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -590,7 +845,7 @@
       <workItem from="1558353055258" duration="612000" />
       <workItem from="1558357371088" duration="1231000" />
       <workItem from="1558359018115" duration="5548000" />
-      <workItem from="1558399341853" duration="20000" />
+      <workItem from="1558399341853" duration="5214000" />
     </task>
     <task id="LOCAL-00001" summary="idea里提交">
       <created>1557712620270</created>
@@ -627,45 +882,59 @@
       <option name="project" value="LOCAL" />
       <updated>1558187077006</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="商品模块 图片上传fastfds">
+      <created>1558399449251</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558399449251</updated>
+    </task>
+    <task id="LOCAL-00007" summary="商品模块 图片上传fastfds">
+      <created>1558447356994</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558447356994</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101532000" />
+    <option name="totallyTimeSpent" value="106726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34225845" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2840512" sideWeight="0.49785408" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14055794" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24678111" sideWeight="0.49323016" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25375536" sideWeight="0.50676984" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28288707" sideWeight="0.49785408" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24678111" sideWeight="0.49323016" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25375536" sideWeight="0.50676984" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -684,7 +953,8 @@
     <MESSAGE value="集成mybatis-plus 和跨域在zuul的配置" />
     <MESSAGE value="product-service 品牌管理，类型树形菜单展示" />
     <MESSAGE value="common redis和静态页面，product-serivce 增删改查 集成redis缓存和静态页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="common redis和静态页面，product-serivce 增删改查 集成redis缓存和静态页面" />
+    <MESSAGE value="商品模块 图片上传fastfds" />
+    <option name="LAST_COMMIT_MESSAGE" value="商品模块 图片上传fastfds" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -697,13 +967,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/util/RedisUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -785,24 +1048,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/TemplateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-interface/src/main/java/cn/itsource/fenggou/client/RedisClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/RedisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -913,13 +1162,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic-parent/basic-util/src/main/java/cn/itsource/util/LetterUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -949,24 +1191,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/basic/generoter/CodeGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/BrandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/query/ProductExtQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -981,6 +1210,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -988,6 +1218,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -995,6 +1226,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,6 +1234,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1157">
           <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,18 +1260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="83" column="43" lean-forward="false" selection-start-line="83" selection-start-column="43" selection-end-line="83" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2250#2251#0" expanded="true" />
-            <element signature="e#2308#2309#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/service/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -1057,38 +1278,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/TemplateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/RedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/resources/cn/itsource/fenggou/mapper/ProductMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+        <state relative-caret-position="162">
+          <caret line="61" column="60" lean-forward="false" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="60" />
           <folding>
-            <marker date="1558363904709" expanded="true" signature="3490:3674" ph="SELECT tp.*,... t_product" />
+            <marker date="1558403232504" expanded="true" signature="3614:3856" ph="SELECT tp.*,... t_product" />
+            <marker date="1558403232504" expanded="true" signature="3614:3913" ph="SELECT tp.*,... t_product" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="80" column="5" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="80" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-common-parent/common-service/src/main/java/cn/itsource/fenggou/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="166" column="25" lean-forward="false" selection-start-line="166" selection-start-column="19" selection-end-line="166" selection-end-column="25" />
+        <state relative-caret-position="297">
+          <caret line="61" column="19" lean-forward="false" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-interface/src/main/java/cn/itsource/fenggou/domain/ProductExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fenggou-product-parent/product-service/src/main/java/cn/itsource/fenggou/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1307#1308#0" expanded="true" />
-            <element signature="e#1353#1354#0" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-            <element signature="e#1463#1464#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
-            <element signature="e#1563#1564#0" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1653#1654#0" expanded="true" />
-            <element signature="e#1681#1682#0" expanded="true" />
-            <element signature="e#1722#1723#0" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-            <element signature="e#1791#1792#0" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
+            <element signature="e#2402#2403#0" expanded="true" />
+            <element signature="e#2460#2461#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-parent/basic-generator/src/main/java/cn/itsource/basic/generoter/CodeGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="50" column="47" lean-forward="false" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
