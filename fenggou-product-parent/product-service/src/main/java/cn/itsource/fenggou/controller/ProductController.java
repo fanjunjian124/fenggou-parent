@@ -1,5 +1,7 @@
 package cn.itsource.fenggou.controller;
 
+import cn.itsource.fenggou.domain.Sku;
+import cn.itsource.fenggou.domain.Specification;
 import cn.itsource.fenggou.service.IProductService;
 import cn.itsource.fenggou.domain.Product;
 import cn.itsource.fenggou.query.ProductQuery;
@@ -7,10 +9,13 @@ import cn.itsource.fenggou.query.ProductQuery;
 import cn.itsource.util.AjaxResult;
 import cn.itsource.util.PageList;
 
+import com.alibaba.fastjson.JSONArray;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class ProductController {
@@ -88,4 +93,77 @@ public class ProductController {
     {
         return productService.selectByQuery(query);
     }
+    //viewProperties
+
+    /**
+     * 根据商品id查找显示属性
+     * @return
+     */
+    @RequestMapping(value = "/product/viewProperties",method = RequestMethod.GET)
+    public List<Specification> viewProperties(@Param("productId") Long productId){
+        return productService.getViewPropertiesByProductId(productId);
+    }
+
+    /**
+     * 保存显示属性
+     * @return
+     */
+    @RequestMapping(value = "/product/viewProperties",method = RequestMethod.POST)
+    public AjaxResult viewProperties( @RequestBody Map<String,Object> para){
+        try {
+            //获取product
+            Long productId = ((Integer)para.get("productId")).longValue();
+            // service层处理 Product product = productService.getById(productId);
+            //获取存储的数据viewProperties
+            List<Specification> viewProperties = (List<Specification>) para.get("viewProperties");
+            //在service层处理 viewProperties转json
+            productService.saveViewProperties(productId,viewProperties);
+            return AjaxResult.me();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setMessage("保存失败"+e.getMessage());
+        }
+    }
+
+    /**
+     * 根据商品id查找sku属性
+     * @return
+     */
+    @RequestMapping(value = "/product/skuProperties",method = RequestMethod.GET)
+    public List<Specification> skuProperties(@Param("productId") Long productId){
+        return productService.getSkuPropertiesByProductId(productId);
+    }
+
+    /**
+     * 保存sku属性
+     * @param para
+     * @return
+     */
+    @RequestMapping(value = "/product/skuProperties",method = RequestMethod.POST)
+    public AjaxResult skuProperties(@RequestBody Map<String,Object> para){
+        try {
+            //获取product
+            Long productId = ((Integer)para.get("productId")).longValue();
+            //获取存储的数据viewProperties
+            List<Specification> skuProperties = (List<Specification>) para.get("skuProperties");
+            List<Map<String,String>> skus = (List<Map<String, String>>) para.get("skus");
+            //在service层处理 viewProperties转json
+            productService.saveSkuProperties(productId,skuProperties,skus);
+            return AjaxResult.me();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setMessage("保存失败"+e.getMessage());
+        }
+    }
+
+    /**
+     * 根据productId查询对应的skus
+     * @param productId
+     * @return
+     */
+    @RequestMapping(value = "/product/skus",method = RequestMethod.GET)
+    public List<Sku> skus(@Param("productId") Long productId){
+        return productService.getSkusByProductId(productId);
+    }
+
 }

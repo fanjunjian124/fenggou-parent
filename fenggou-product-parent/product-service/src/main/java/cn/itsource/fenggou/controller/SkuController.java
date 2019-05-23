@@ -3,8 +3,9 @@ package cn.itsource.fenggou.controller;
 import cn.itsource.fenggou.service.ISkuService;
 import cn.itsource.fenggou.domain.Sku;
 import cn.itsource.fenggou.query.SkuQuery;
-import cn.itsource.fenggou.util.AjaxResult;
-import cn.itsource.fenggou.util.PageList;
+
+import cn.itsource.util.AjaxResult;
+import cn.itsource.util.PageList;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.springframework.beans.factory.annotation.Autowired;

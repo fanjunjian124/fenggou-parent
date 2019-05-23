@@ -6,6 +6,8 @@ import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * <p>
@@ -34,7 +36,39 @@ private static final long serialVersionUID=1L;
 
     @TableField("isSku")
     private Integer isSku;
+    //用来装商品的显示属性值，最后存入t_product表中
+    @TableField(exist = false)
+    private String value;
+    //skus
+    @TableField(exist = false)
+    private List<String> options= new ArrayList<>();
 
+    public List<String> getOptions() {
+        return options;
+    }
+
+    public void setOptions(List<String> options) {
+        this.options = options;
+    }
+
+    @Override
+    public String toString() {
+        return "Specification{" +
+                "id=" + id +
+                ", specName='" + specName + '\'' +
+                ", productTypeId=" + productTypeId +
+                ", isSku=" + isSku +
+                ", value='" + value + '\'' +
+                '}';
+    }
+
+    public String getValue() {
+        return value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
 
     public Long getId() {
         return id;
@@ -73,13 +107,4 @@ private static final long serialVersionUID=1L;
         return this.id;
     }
 
-    @Override
-    public String toString() {
-        return "Specification{" +
-        "id=" + id +
-        ", specName=" + specName +
-        ", productTypeId=" + productTypeId +
-        ", isSku=" + isSku +
-        "}";
-    }
 }
