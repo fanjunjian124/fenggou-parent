@@ -7,6 +7,8 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.apache.ibatis.annotations.Param;
 
+import java.util.List;
+
 /**
  * <p>
  * 商品 Mapper 接口
@@ -19,4 +21,13 @@ public interface ProductMapper extends BaseMapper<Product> {
 
     IPage<Product> selectByQuery(Page<Product> page,@Param("query") BaseQuery query);
 
+    void onSale(@Param("ids") List<Long> ids,@Param("onSaleTime") long onSaleTime);
+
+    /**
+     *
+     * 下架修改数据库状态和下架时间
+     * @param ids
+     * @param time
+     */
+    void offSale(@Param("ids") List<Long> ids, @Param("offSaleTime")long time);
 }

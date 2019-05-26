@@ -8,6 +8,9 @@ import springfox.documentation.swagger.web.SwaggerResourcesProvider;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 配置网关路径
+ */
 @Component
 @Primary
 public class DocumentationConfig implements SwaggerResourcesProvider {

@@ -6,6 +6,9 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
+/**
+ * 配置跨域ip
+ */
 @Configuration
 public class GlobalCorsConfig {
     @Bean
@@ -16,6 +19,8 @@ public class GlobalCorsConfig {
         // 这里的端口号写前端项目config/index里的端口号
         config.addAllowedOrigin("http://127.0.0.1:8080");
         config.addAllowedOrigin("http://localhost:8080");
+        config.addAllowedOrigin("http://127.0.0.1:6002");
+        config.addAllowedOrigin("http://localhost:6002");
         //2) 是否发送Cookie信息
         config.setAllowCredentials(true);
         //3) 允许的请求方式

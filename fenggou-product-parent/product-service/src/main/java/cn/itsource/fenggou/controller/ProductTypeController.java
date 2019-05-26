@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class ProductTypeController {
@@ -108,5 +109,22 @@ public class ProductTypeController {
             return AjaxResult.me().setSuccess(false).setMessage("生成失败!");
         }
     }
+
+
+    /**
+     * 加载类型面包屑
+     * @param productTypeId
+     * @return
+     */
+    @GetMapping("/productType/crumb")
+    public List<Map<String,Object>> loadCrumbs(Long productTypeId){
+        return productTypeService.loadCrumbs(productTypeId);
+    }
+
+    @GetMapping("/productType/path")
+    public String path(@RequestParam("id")Long id){
+        return productTypeService.getPathById(id);
+    }
+
 
 }

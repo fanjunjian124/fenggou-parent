@@ -9,11 +9,13 @@ import cn.itsource.fenggou.query.ProductQuery;
 import cn.itsource.util.AjaxResult;
 import cn.itsource.util.PageList;
 
+import cn.itsource.util.StrUtils;
 import com.alibaba.fastjson.JSONArray;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
@@ -49,12 +51,14 @@ public class ProductController {
     */
     @RequestMapping(value="/product",method=RequestMethod.DELETE)
     public AjaxResult delete(@RequestBody String ids){
-        // TODO 同时删除fastfds的图片
+        // TODO 同时删除fastdfs的图片
         try {
             System.out.println("ids============"+ids);
             //ids============{"ids":{"ids":"37,38"}} 前端{data: {ids:para}}
             String[] split = ids.split(",");
+            Arrays.asList(split);
             for (String id : split) {
+//                productService.removeByIds()
                 productService.removeById(Long.valueOf(id));
             }
             return AjaxResult.me();
@@ -165,5 +169,46 @@ public class ProductController {
     public List<Sku> skus(@Param("productId") Long productId){
         return productService.getSkusByProductId(productId);
     }
+
+    /**
+     * 商品上架（批量或单个）
+     * @param ids
+     * @return
+     */
+    @GetMapping("/product/onSale")
+    public AjaxResult onSale( String ids){
+
+        try {
+            //用工具转换成long数组
+            List<Long> idList = StrUtils.splitStr2LongArr(ids,",");
+            productService.onSale(idList);
+            return AjaxResult.me();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setSuccess(false).setMessage("上架失败!"+e.getMessage());
+        }
+    }
+
+    /**
+     * 商品下架（批量或单个）
+     * @param ids
+     * @return
+     */
+    @GetMapping("/product/offSale")
+    public AjaxResult offSale( String ids){
+
+        try {
+            //用工具转换成long数组
+            List<Long> idList = StrUtils.splitStr2LongArr(ids,",");
+            productService.offSale(idList);
+            return AjaxResult.me();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return AjaxResult.me().setSuccess(false).setMessage("下架失败!"+e.getMessage());
+        }
+    }
+    //loadCrumbs
+
+
 
 }

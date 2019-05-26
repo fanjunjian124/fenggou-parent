@@ -62,6 +62,26 @@
         <result column="pedescription" property="description"/>
     </resultMap>
 
+    <!--上架 批量修改状态根据id-->
+    <update id="onSale">
+        update t_product
+        set onSaleTime = #{onSaleTime},state=1
+        where id in
+        <foreach collection="ids" open="(" close=")" item="id" separator=",">
+            #{id}
+        </foreach>
+    </update>
+
+    <!--下架 批量修改状态根据id-->
+    <update id="offSale">
+        update t_product
+        set offSaleTime = #{offSaleTime},state=0
+        where id in
+        <foreach collection="ids" open="(" close=")" item="id" separator=",">
+            #{id}
+        </foreach>
+    </update>
+
     <select id="selectByQuery" resultMap="ProductMap">
         SELECT tp.*,tpt.name typename,tb.name bname,pe.description pedescription,pe.richContent perichContent
         FROM t_product tp

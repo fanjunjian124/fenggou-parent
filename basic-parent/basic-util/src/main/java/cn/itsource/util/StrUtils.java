@@ -11,14 +11,14 @@ import java.util.Random;
  */
 public class StrUtils {
     /**
-     * 把逗号分隔的字符串转换字符串数组
+     * 把逗号或点分隔的字符串转换字符串数组
      *
      * @param str
      * @return
      */
-    public static String[] splitStr2StrArr(String str) {
+    public static String[] splitStr2StrArr(String str,String splitStr) {
         if (str != null && !str.equals("")) {
-            return str.split(",");
+            return str.split(splitStr);
         }
         return null;
     }
@@ -30,8 +30,8 @@ public class StrUtils {
      * @param str
      * @return
      */
-    public static List<Long> splitStr2LongArr(String str) {
-        String[] strings = splitStr2StrArr(str);
+    public static List<Long> splitStr2LongArr(String str,String splitStr) {
+        String[] strings = splitStr2StrArr(str,splitStr);
         if (strings == null) return null;
 
         List<Long> result = new ArrayList<Long>();
